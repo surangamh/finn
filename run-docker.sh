@@ -88,8 +88,8 @@ SCRIPTPATH=$(dirname "$SCRIPT")
 
 # the settings below will be taken from environment variables if available,
 # otherwise the defaults below will be used
-: ${JUPYTER_PORT=8888}
-: ${NETRON_PORT=8081}
+: ${JUPYTER_PORT=8889} #default is 8888
+: ${NETRON_PORT=8083} #default is 8081
 : ${PYNQ_USERNAME="xilinx"}
 : ${PYNQ_PASSWORD="xilinx"}
 : ${PYNQ_BOARD="Pynq-Z1"}
